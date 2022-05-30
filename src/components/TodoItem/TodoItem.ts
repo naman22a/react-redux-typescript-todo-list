@@ -13,10 +13,15 @@ export const Text = styled.h3`
 `
 
 export const DeleteBtn = styled.button`
-    background-color: red;
-    color: white;
-    padding: 3.5px 8px;
-    border-radius: 4px;
     border: none;
     cursor: pointer;
+    background-color: red;
+
+
+    svg{
+        height: 10px;
+        width: 10px;
+        object-fit: cover;
+        stroke: white;
+    }
 `
